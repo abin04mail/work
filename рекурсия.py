@@ -22,5 +22,5 @@ def fractal_rectangle(A, B, C, D, deep=10): # deep - глубина
     D1 = (D[0]*(1-alpha) + A[0]*alpha, D[1]*(1-alpha) + A[1]*alpha)
     fractal_rectangle(A1, B1, C1, D1, deep-1)
 
-fractal_rectangle((100, 100), (500, 100), (500, 500), (100, 500), deep=10)
+fractal_rectangle((100, 100), (500, 100), (500, 500), (100, 500), 10)
 window.getMouse() # Pause to view result
